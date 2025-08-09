@@ -1,0 +1,16 @@
+# ------------------------------
+# requirements.txt (copy this into a separate file in your repo)
+# --------------------------------------------------------------
+# streamlit>=1.36.0
+# pymupdf>=1.24.7
+# pillow>=10.3.0
+# numpy>=1.26.4
+# easyocr>=1.7.1
+# torch>=2.2.0
+# torchvision>=0.17.0
+# torchaudio>=2.2.0
+
+# Notes:
+# - On first run, EasyOCR will download model files (~80MB). Allow 1–2 minutes.
+# - Streamlit Community Cloud has resource limits; very large PDFs may hit timeouts.
+# - You can remove torch/vision/audio if EasyOCR resolves the correct torch wheel automatically.
